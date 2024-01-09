@@ -1,0 +1,57 @@
+*colorful-indent.txt*		Show indent in rainbow color
+
+Author: mityu
+License: MIT License
+
+==============================================================================
+CONTENTS					*colorful-indent-contents*
+
+INTRODUCTION				|colorful-indent-introduction|
+FUNCTIONS				|colorful-indent-functions|
+EXAMPLE CONFIGURATION			|colorful-indent-example-configuration|
+
+
+==============================================================================
+INTRODUCTION					*colorful-indent-introduction*
+
+*colorful-indent* is a plugin to visualize indents in your favorite colors.
+
+
+==============================================================================
+REQUIREMENTS					*colorful-indent-requirements*
+
+- Vim 8.1.1418 or later
+- NeoVim v0.4.0 or later
+
+==============================================================================
+FUNCTIONS					*colorful-indent-functions*
+
+colorfulindent#enable()				*colorfulindent#enable()*
+	Enable indent highlight.  Since indent highlight is not enabled in
+	default, you should call this function before you want to use this
+	plugin.
+
+colorfulindent#disable()			*colorfulindent#disable()*
+	Disable indent highlight.
+
+colorfulindent#colorize()			*colorfulindent#colorize()*
+	Do highlight of indents.  You can use this function to refresh
+	highlight.
+
+colorfulindent#uncolorize()			*colorfulindent#uncolorize()*
+	Clear indent highlight.  You can use this function to disable indent
+	highlight for bit a short time.
+
+					*colorfulindent#set_indent_colors()*
+colorfulindent#set_indent_colors({colors})
+
+TODO: Write
+
+
+==============================================================================
+EXAMPLE CONFIGURATION			*colorful-indent-example-configuration*
+
+TODO: Write
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
